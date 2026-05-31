@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "../config";
 
 function CarListingPage() {
   const navigate = useNavigate();
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch(`${BASE_URL}/api/cars`)
+    fetch(`const API_URL = `https://carrecommendationserver.onrender.com/api/cars`)
       .then((res) => res.json())
       .then((data) => setCars(data))
       .catch((err) =>
