@@ -1,6 +1,5 @@
-import { BASE_URL } from "../config";
 
-const API_URL = `${BASE_URL}/api/recommendations`;
+const API_URL = `https://carrecommendationserver.onrender.com/api/recommendations`;
 
 export const getRecommendations =
   async (preferences) => {
