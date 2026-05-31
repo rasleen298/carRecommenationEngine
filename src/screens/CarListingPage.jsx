@@ -6,7 +6,7 @@ function CarListingPage() {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch(`const API_URL = `https://carrecommendationserver.onrender.com/api/cars`)
+    fetch(`https://carrecommendationserver.onrender.com/api/cars`)
       .then((res) => res.json())
       .then((data) => setCars(data))
       .catch((err) =>
