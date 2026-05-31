@@ -152,3 +152,5 @@ npm install
 npm run dev
 ```
 Localhost port - 5173
+
+## Nodejs server repository - https://github.com/rasleen298/carRecommendationServer
