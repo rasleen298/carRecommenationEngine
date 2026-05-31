@@ -1,5 +1,3 @@
-# carRecommenationEngine
-
 # Car Match Assistant Frontend
 
 ## Overview
