@@ -87,12 +87,12 @@ Used for:
 
 Used for communication with the backend recommendation service.
 
----
-
 ## AI Tool Usage
 
 AI tools (ChatGPT, Amazon Q) were used as development assistants.
 
+### Backend - Node.js and Express
+##### Server repository - https://github.com/rasleen298/carRecommendationServer
 ### Delegated to AI
 
 * Setting up React and Node boilerplates from scratch
