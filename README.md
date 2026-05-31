@@ -31,6 +31,23 @@ Users answer questions about:
 Based on these preferences, the frontend requests recommendations from the backend and displays the top matching vehicles.
 
 ---
+## Screenshots
+
+### Chatbot Experience
+
+![Chatbot Flow](./screenshots/chatbot.png)
+
+### Recommendations
+
+![Recommendations](./screenshots/recommendations.png)
+
+### Car Comparison
+
+![Comparison Table](./screenshots/comparison.png)
+
+### Car Catalog
+
+![Car Listing](./screenshots/isting.png)
 
 ## What I Deliberately Cut
 
