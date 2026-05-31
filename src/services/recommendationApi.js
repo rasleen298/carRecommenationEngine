@@ -1,9 +1,9 @@
-const API_URL =
-  "http://localhost:5000/api/recommendations";
+import { BASE_URL } from "../config";
+
+const API_URL = `${BASE_URL}/api/recommendations`;
 
 export const getRecommendations =
   async (preferences) => {
-      console.log("preferebnces>>",preferences)
 
     const response = await fetch(API_URL, {
       method: "POST",
